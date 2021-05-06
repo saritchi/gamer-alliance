@@ -145,6 +145,12 @@ nav a {
     flex-wrap: wrap-reverse;
 }
 
+@media only screen and (min-width: 1500px) {
+    .console-card img {
+        width: 650px
+    }
+}
+
 /* Photo Section */
 
 #photos {
