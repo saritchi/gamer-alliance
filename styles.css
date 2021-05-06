@@ -1,0 +1,181 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Exo';
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(218, 165, 32, 0.75), rgba(0, 0, 0, 0));
+    width: 100%;
+    margin: 2rem 0rem;
+}
+
+.button {
+    background-color: black;
+    padding: 10px 20px;
+    margin-top: 1rem;
+    border: 2px solid goldenrod;
+    color: goldenrod;
+    font-weight: 600;
+}
+
+.button:hover {
+    background-color: goldenrod;
+    color: white;
+    cursor: pointer;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+h3 {
+    font-size: 1.15rem;
+}
+
+.section-container {
+    width: 80%;
+    margin: auto;
+    height: auto;
+    justify-content: space-around;
+}
+
+/* Nav Bar */
+
+nav {
+    height: 5rem;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid goldenrod;
+    background-color: rgba(218, 165, 32, 0.8);
+}
+
+nav a {
+    padding: 0.625rem 3.125rem;
+    font-size: 1.15rem;
+    text-decoration: none;
+    color: white;
+}
+
+@media only screen and (max-width: 675px) {
+    nav {
+        height: 12rem;
+        flex-direction: column;
+    }
+}
+
+/* Logo Section */
+
+#logo {
+    width: 100%;
+    font-size: 2em;
+    padding: 3rem 0rem 2rem 0rem;
+    letter-spacing: 0.75rem;
+    text-align: center;
+}
+
+#icon {
+    width: 75px;
+    margin: auto;
+}
+
+/* Intro Section */
+
+#intro-info h2{
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#intro-info {
+    margin: auto;
+    width: 90%;
+    line-height: 1.5rem;
+    text-align: center;
+}
+
+#intro-info h3 {
+    padding: 20px 0px;
+}
+
+/* Consoles Section */
+
+.console-card {
+    width: 80%;
+    margin: auto;
+    justify-content: space-around;
+    padding: 25px 0px;
+}
+
+.console-card img {
+    width: 450px;
+    height: auto;
+}
+
+.console-info {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 300px;
+}
+
+.console-info h3 {
+    margin-top: 0.2rem;
+}
+
+.reversed-card {
+    flex-wrap: wrap-reverse;
+}
+
+/* Photo Section */
+
+#photos {
+    text-align: center;
+    margin: auto;
+}
+
+#photos img {
+    width: 30%;
+    margin: 0.5rem;
+}
+
+@media only screen and (max-width: 750px) {
+    #photos img {
+        width: 80%;
+        margin: 0.5rem;
+    }
+}
+
+/* Meetup Section */
+
+#meetup {
+    text-align: center;
+}
+
+/* Footer Section */
+
+footer {
+    margin-top: 2rem;
+    height: 3rem;
+    background-color: rgba(218, 165, 32, 0.8);
+    text-align: center;
+    padding: 10px 30px;
+}
